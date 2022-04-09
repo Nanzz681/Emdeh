@@ -1,0 +1,47 @@
+{
+
+  "name": "Nanzz681",
+
+  "description": "Whatsapp Bot",
+
+  "repository": "https://github.com/Nanzz681/Emdeh",
+
+  "logo": "https://node-js-sample.herokuapp.com/node.png",
+
+  "keywords": ["bot", "whatsapp", "whatsapp-bot", "nodejs", "Multi-device"]
+
+  "buildpacks": [
+
+    {
+
+      "url": "heroku/nodejs"
+
+    },
+
+    {
+
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+
+    },
+
+    {
+
+      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+
+    },
+
+  ],
+
+   "formation": {
+
+        "worker": {
+
+            "quantity": 1,
+
+            "size": "free"
+
+        }
+
+    }
+
+}
